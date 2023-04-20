@@ -1,38 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Viajamás
+Viajamás is an organization dedicated to helping others fulfill the dream and goal of traveling to Cancun and Rivera Maya.
 
-## Getting Started
 
-First, run the development server:
+# Checking out and building
+To check out the project and build it from source, do the following:
+```bash
+git clone https://github.com/Leonardo-Toledo-V/viajamas.git
+cd viajamas
+```
+To build and install the project into your local device
+
+- Install the dependencies:
+```bash
+npm install 
+```
+- Once the dependencies are installed, execute the following command depending on your package manager:
 
 ```bash
 npm run dev
-# or
+# o
 yarn dev
-# or
+# o
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+# Project Structure
+```plaintext
+|--- components
+|    |--- Ad.js
+|    |--- Icons.js
+|    |--- Main.js
+|    |--- Text.js
+|
+|--- pages
+|    |--- api
+|    |    |--- hello.js
+|    |    
+|    |--- _app.js
+|    |--- _document.js
+|    |--- index.js
+|
+|--- public
+|    |--- background-desktop.webp
+|    |--- background-mobile.webp
+|    |--- instagram.png
+|    |--- logo.png
+|    |--- tiktok.png
+|    |--- whatsapp.png
+|
+|--- styles
+|    |--- globals.css
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# Preview:
+## Desktop
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Desktop-viajamas](http://imgfz.com/i/wHMknAG.jpeg)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Mobile
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Mobile-viajamas](http://imgfz.com/i/AK4legN.jpeg)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
