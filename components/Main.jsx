@@ -10,7 +10,7 @@ export default function Main() {
           <div>
             <Image 
             src='/logo.png'
-            width={300}
+            width={200}
             height={100}
             className='mr-32'
             />
